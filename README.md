@@ -92,4 +92,6 @@ HMC_84358933_mono10bit : HMC_21179183_mono10bit
 Google requires you to authenticate your google account (the account which already has access to the drive) at least once through a browser to access the contents of the drive through CLI. If you are working from a remote/headless machine with no browser, run the `authenticate.py` once on your local machine with an accessible browser to generate a `credentials.json`. Once this `credentials.json` is created you can move this file to your working directory in the remote/headless machine. For people working from a machine with an accesible browser, this step is not required to perform.
 
 # License
-Assembly101 is released under the [MIT License](https://github.com/assembly-101/download_scripts/blob/main/LICENSE).
+Assembly101 is licensed by us under the Creative Commons Attribution-NonCommerial 4.0 International License, found [here](https://creativecommons.org/licenses/by-nc/4.0/). The terms are :
+- **Attribution** : You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** : You may not use the material for commercial purposes.
