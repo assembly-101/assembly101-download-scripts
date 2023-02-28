@@ -78,8 +78,9 @@ def download_file(out_path, file_name, file):
 	try:
 		file.GetContentFile(file['title'])
 		os.rename(f'{file_name}', f'{out_path}/{file_name}')
-	except:
+	except Exception as e:
 		# if any video fails to download completely, its name will be stored in error_downloading.txt
+		print(f'=> [Error encountered]: {e}')
 		with open('./error_downloading.txt', 'a') as f:
 			f.write(f'{out_path}/{file_name}\n')
 		os.remove(f'{file_name}')
