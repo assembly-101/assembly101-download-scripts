@@ -8,6 +8,7 @@ The folders present in the Gdrive are:
 - `recordings`: containing all 362 recordings (12 views per recording - 8 fixed and 4 egocentric)
 - `TSM_features`: containing per-frame visual features extracted by [TSM](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lin_TSM_Temporal_Shift_Module_for_Efficient_Video_Understanding_ICCV_2019_paper.pdf)
 - `poses@60fps`: containing 3D hand poses generated at 60fps
+- `metadata.zip`: containing camera extrinsics and positions for all the 12 views
 
 ### Folder structure of the Assembly101 `recordings`:
 ```
