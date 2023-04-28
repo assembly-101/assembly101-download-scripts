@@ -4,7 +4,7 @@ Assembly101 is a new procedural activity dataset featuring 4321 videos of people
 - - -
 This repository provides scripts for downloading Assembly101 from [Gdrive](https://drive.google.com/drive/folders/1nh8PHwEw04zxkkkKlfm4fsR3IPEDvLKj). Please submit an access request with your google account. Owing to concerns regarding security and server traffic overload, only one google account per individual will be provided access for an initial 14 days. If your current access expires, please request for another access mentioning "renewal" in the comments to extend it for another 14 days.
 
-The folders present in the Gdrive are:
+The files present in the Gdrive are:
 - `recordings`: containing all 362 recordings (12 views per recording - 8 fixed and 4 egocentric)
 - `TSM_features`: containing per-frame visual features extracted by [TSM](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lin_TSM_Temporal_Shift_Module_for_Efficient_Video_Understanding_ICCV_2019_paper.pdf)
 - `poses@60fps`: containing 3D hand poses generated at 60fps
