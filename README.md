@@ -6,9 +6,10 @@ This repository provides scripts for downloading Assembly101 from [Gdrive](https
 
 The files present in the Gdrive are:
 - `recordings`: containing all 362 recordings (12 views per recording - 8 fixed and 4 egocentric)
+- `AssemblyPoses.zip`: containing 2D, 3D hand poses at 60fps, camera extrinsics and positions for all the 12 views, and hand-object crops (defined as 125% of the rectangular area enclosed by the 2D hand pose)
+- `poses@60fps`: containing 3D hand poses generated at 60fps (please use 2D/3D hand poses in `AssemblyPoses.zip` for the latest cleaned version)
 - `TSM_features`: containing per-frame visual features extracted by [TSM](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lin_TSM_Temporal_Shift_Module_for_Efficient_Video_Understanding_ICCV_2019_paper.pdf)
-- `poses@60fps`: containing 3D hand poses generated at 60fps
-- `metadata.zip`: containing camera extrinsics and positions for all the 12 views
+- `DINOv2_features.zip`: containing per-frame [DINOv2]() (ViT-g/14) features for both full frame and the hand-object crops (refer to [HandFormer](https://github.com/s-shamil/HandFormer) for more details)
 
 ### Folder structure of the Assembly101 `recordings`:
 ```
