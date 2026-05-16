@@ -1,7 +1,15 @@
 # [Assembly101](https://assembly-101.github.io/) downloader
+
+[![Webpage](https://img.shields.io/badge/Webpage-Assembly101-1f883d?logo=googlechrome&style=flat-square)](https://assembly-101.github.io/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Assembly101-ffd21e?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/cvml-nus/assembly101)
+
 ![model](https://github.com/assembly-101/assembly-101.github.io/blob/main/docs/assets/assembly.jpg)
 Assembly101 is a new procedural activity dataset featuring 4321 videos of people assembling and disassembling 101 "take-apart" toy vehicles. Participants work without fixed instructions, and the sequences feature rich and natural variations in action ordering, mistakes, and corrections. Assembly101 is the first multi-view action dataset, with simultaneous static (8) and egocentric (4) recordings. Sequences are annotated with more than 100K coarse and 1M fine-grained action segments, and 18M 3D hand poses. We benchmark on three action understanding tasks: recognition, anticipation and temporal segmentation. Additionally, we propose a novel task of detecting mistakes. The unique recording format and rich set of annotations allow us to investigate generalization to new toys, cross-view transfer, long-tailed distributions, and pose vs. appearance. We envision that Assembly101 will serve as a new challenge to investigate various activity understanding problems.
 - - -
+
+> [!NOTE]
+> As of May 2026, Assembly101 is also available on [Hugging Face](https://huggingface.co/datasets/cvml-nus/assembly101) to simplify public access for long-term data distribution. The dataset structure and file organization remain identical to the original Google Drive release, as detailed below. We will gradually phase out the Google Drive distribution moving forward.
+
 This repository provides scripts for downloading Assembly101 from [Gdrive](https://drive.google.com/drive/folders/1nh8PHwEw04zxkkkKlfm4fsR3IPEDvLKj). Please submit an access request with your google account. Owing to concerns regarding security and server traffic overload, only one google account per individual will be provided access for an initial 14 days. If your current access expires, please request for another access mentioning "renewal" in the comments to extend it for another 14 days.
 
 The files present in the Gdrive are:
